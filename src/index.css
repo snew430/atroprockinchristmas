@@ -1,13 +1,25 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@500&display=swap');
+
+:root {
+  --font-base: "Domine", serif;
+
+  --primary-color: #0F8A5F;
+  --secondary-color: #CC231E;
+  --green-color: #34A65F;
+  --darkGreen-color: #146152;
+  --darkRed-color: #832831;
+  --lightRed-color: #F5624D;
+  --black-color: #030303;
+  --white-color: #E9E3C9;
+  --darkBlue-color: #235E6F;
+  --gold-color:#ddc06f;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
 }

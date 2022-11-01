@@ -1,0 +1,183 @@
+.app__navbar {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+
+  padding: 1rem 2rem 0.5rem;
+  background: var(--secondary-color);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  position: fixed;
+  z-index: 2;
+}
+
+.cursor-item {
+  cursor: pointer;
+}
+
+h2 {
+  color: var(--white-color);
+  font-family: 'Mountains of Christmas', cursive;
+  font-size: 2.75rem;
+  font-weight: 900;
+  margin: 0 1rem 0 0.25rem;
+}
+
+.sponsor {
+  font-size: 1.5rem;
+  color: var(--white-color);
+  justify-content: center;
+
+  a {
+    text-decoration: none;
+    margin: 0 1rem 0 0.25rem;
+    color: var(--white-color);
+
+    &:hover {
+      background-color: var(--primary-color);
+      border-radius: 5px;
+      padding: 5px;
+      border: none;
+    }
+  }
+}
+
+.app__navbar-links {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  list-style: none;
+
+  li {
+    margin: 0 1rem;
+    cursor: pointer;
+
+    a {
+      font-size: 1.75rem;
+      color: var(--white-color);
+      text-shadow: -1px 0 black;
+      text-decoration: none;
+      flex-direction: column;
+
+      font-weight: 400;
+
+      transition: all 0.3s ease-in-out;
+
+      &:hover {
+        color: var(--white-color);
+        background-color: var(--primary-color);
+        border-radius: 5px;
+        border: none;
+      }
+    }
+  }
+
+  @media screen and (max-width: 920px) {
+    display: none;
+  }
+}
+
+.app__navbar-menu {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-color);
+
+  svg {
+    width: 70%;
+    height: 70%;
+    color: var(--white-color);
+  }
+
+  div {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 5;
+
+    padding: 1.5rem;
+
+    width: 80%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+
+    background: url('../../assets/images/candy_canes.jpg');
+    background-size: cover;
+    background-position: center;
+
+    box-shadow: 0px 0px 20px rgba(168, 168, 168, 0.15);
+
+    svg {
+      width: 40px;
+      height: 40px;
+      color: #ffffff;
+      background-color: var(--primary-color);
+      border-radius: 5px;
+      margin: 0.5rem 1rem;
+    }
+
+    ul {
+      list-style: none;
+      margin: 6rem 0 0 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-direction: column;
+
+      li {
+        margin: 1.5rem;
+
+        a {
+          color: #ffffff;
+          background-color: var(--primary-color);
+          text-shadow: -1px 0 black;
+          border-radius: 10px;
+          text-decoration: none;
+          text-align: center;
+          font-size: 1.75rem;
+          padding: 0.5rem 1rem;
+          font-weight: 500;
+          transition: all 0.3s ease-in-out;
+
+          &:hover {
+            color: var(--white-color);
+            background-color: var(--darkGreen-color);
+            padding: 0.5rem 1rem;
+            border-radius: 1px;
+            border: none;
+          }
+        }
+
+        img {
+          height: 150px;
+        }
+      }
+    }
+
+    @media screen and (min-width: 920px) {
+      display: none;
+    }
+  }
+
+  @media screen and (min-width: 920px) {
+    display: none;
+  }
+}

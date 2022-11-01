@@ -1,0 +1,159 @@
+#about {
+  background: url('../../assets/images/palms.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+
+  .background {
+    background-color: rgba(105, 105, 105, 0.25);
+    min-height: 100vh;
+  }
+
+  h2 {
+    padding-top: 7rem;
+    font-family: 'Mountains of Christmas', cursive;
+    font-size: 7rem;
+    font-weight: 800;
+    text-align: center;
+    color: var(--white-color);
+    text-shadow: -10px 0 var(--darkGreen-color);
+
+    @media screen and (max-width: 900px) {
+      font-size: 5rem;
+    }
+
+    @media screen and (max-width: 450px) {
+      font-size: 3rem;
+    }
+  }
+
+  .secondary {
+    padding-top: 1rem;
+  }
+
+  .studio-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+
+    img {
+      width: 30%;
+      border-style: double;
+      border-width: 12px;
+      border-color: var(--white-color);
+
+      @media screen and (max-width: 900px) {
+        width: 90%;
+      }
+    }
+  }
+  
+  .info-text {
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+    text-justify: inter-word;
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    border: 20px;
+    border-style: double;
+    border-color: var(--white-color);
+    padding: 1rem;
+    text-shadow: -2px 0 black;
+    line-height: 1.5;
+    margin: 20px 75px 15px;
+    width: 50%;
+
+    @media screen and (max-width: 1200px) {
+      font-size: 1.6rem;
+      margin: 20px 10px 20px;
+      width: 90%;
+    }
+
+    a {
+      font-size: 2rem;
+      font-weight: 300;
+      color: var(--white-color);
+      text-shadow: -2px 0 black;
+      text-decoration: none;
+
+      @media screen and (max-width: 900px) {
+        font-size: 1.6rem;
+      }
+
+      @media screen and (max-width: 450px) {
+        font-size: 1.25rem;
+      }
+
+      &:hover {
+        color: var(--secondary-color);
+        background-color: rgba(233, 227, 201, 0.75);
+        padding: 5px;
+        border-radius: 5px;
+        text-shadow: none;
+      }
+    }
+  }
+
+  .hosts { 
+    display: flex;
+    justify-content: space-evenly;
+    
+    flex-wrap: wrap;
+
+    .person {
+      flex-direction: column;
+      text-align: center;
+
+      img {
+        width: 25rem;
+        height: 30rem;
+        margin: 1rem;
+        padding: 10px;
+        border-style: dotted;
+        border-width: 15px;
+        border-color: var(--white-color);
+      }
+
+      .info-text {
+          width: 40rem;
+          background-color: var(--lightRed-color);
+          font-size: 1.65rem;
+          margin: 1rem;
+
+          @media screen and (max-width: 900px) {
+            width: 90%;
+          }
+    
+      }
+
+      h3 {
+        a {
+          text-decoration: none;
+          font-family: 'Mountains of Christmas', cursive;
+          font-weight: 800;
+          font-size: 4rem;
+          color: var(--white-color);
+          text-shadow: -3px 0 var(--secondary-color);
+          background-color: var(--primary-color);
+          padding: 0.2rem 1.5rem;
+
+          @media screen and (max-width: 900px) {
+            font-size: 1.6rem;
+          }
+    
+          @media screen and (max-width: 450px) {
+            font-size: 2.5rem;
+          }
+
+          .icon {  
+            font-size: 2.8rem;
+            padding: 5px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.scss';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Navigation, Home, About, Cookie } from './components/index';
+import Snowfall from 'react-snowfall';
+import { Lights } from './components/index';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Snowfall
+        color="white"
+        snowflakeCount={25}
+        style={{ height: '100vh', position: 'fixed' }}
+      />
+      <Lights />
+      <div className="app">
+        <Navigation />
+        <Routes>
+          <Route path="/home" element={<Home />} />
+          <Route path="/cookie" element={<Cookie />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/*" element={<Home />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
