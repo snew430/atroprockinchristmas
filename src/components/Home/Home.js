@@ -114,7 +114,6 @@ const Home = () => {
             )
           )}
         </div>
-        {/* <Footer sticky="bottom" /> */}
       </div>
     </div>
   );

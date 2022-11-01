@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.scss';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Navigation, Home, About, Cookie } from './components/index';
+import { Navigation, Home, About, Cookie, Footer } from './components/index';
 import Snowfall from 'react-snowfall';
 import { Lights } from './components/index';
 
@@ -23,6 +23,7 @@ function App() {
           <Route path="/*" element={<Home />} />
         </Routes>
       </div>
+      <Footer />
     </Router>
   );
 }

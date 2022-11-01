@@ -31,7 +31,6 @@ const Cookie = () => {
           <br />
           More information to come on how you can support this fundraiser!
         </p>
-        {/* <Footer sticky="bottom" /> */}
       </div>
     </div>
   );

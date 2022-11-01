@@ -3,7 +3,6 @@ import AboutCard from '../AboutCard/AboutCard';
 import info from '../../info/aboutInfo';
 import studio from '../../assets/images/studio.jpg';
 
-
 const About = () => {
   return (
     <div id="about">
@@ -48,7 +47,6 @@ const About = () => {
             <AboutCard key={person.title} person={person} />
           ))}
         </div>
-        {/* <Footer sticky="bottom" /> */}
       </div>
     </div>
   );
