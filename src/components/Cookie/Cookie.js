@@ -14,6 +14,18 @@ const Cookie = () => {
           Colorful palm tree cookies with an irresistable flavor of a cannoli.
           You won't be able to stop at one!
         </p>
+
+        <p className="cookie-text">
+          Check out more baked goods at
+          <br />
+          <a
+            href="https://www.vaccarospastry.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Vaccaro’s Italian Pastry Shop
+          </a>
+        </p>
         <div className="images">
           <img className="joe" src={baking} alt="joe baking cookies" />
         </div>

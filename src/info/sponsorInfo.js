@@ -12,7 +12,7 @@ const sponsors = [
     logo: dropDead,
   },
   {
-    name: 'R.O.C Park',
+    name: 'R.O.C. Park',
     website: 'http://rocpark.com/',
     logo: '',
   },

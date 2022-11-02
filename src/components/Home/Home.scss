@@ -61,6 +61,11 @@
         border-radius: 5px;
       }
     }
+
+    .link-text {
+      border: 3px solid var(--darkGreen-color);
+      background-color: var(--darkRed-color);
+    }
   }
 
   .green-card {

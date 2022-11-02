@@ -59,12 +59,6 @@ const Navigation = () => {
               onClick={() => setToggle(false)}
             />
             <ul>
-              <li>
-                <HiX
-                  className="app__flex p-text"
-                  onClick={() => setToggle(false)}
-                />
-              </li>
               <li className="app__flex p-text" onClick={() => setToggle(false)}>
                 <Link as={Link} to="/home" className="app__flex p-text">
                   Home

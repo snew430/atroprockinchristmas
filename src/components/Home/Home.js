@@ -42,10 +42,12 @@ const Home = () => {
             R-O-C Park, a very special place in Madeira Beach, Florida. R-O-C
             Park is the official charity of Kitty and Melanie of Drop Dead
             Dangerous, and dedicated to the remembrance of children's lives lost
-            too soon.{' '}
+            too soon.
+            <br />
             <Link as={Link} to="/cookie">
-              Details HERE.
+              <span className="link-text">Details HERE</span>
             </Link>
+            .
           </p>
 
           <h3>Trop Rock artists featured this year include:</h3>
