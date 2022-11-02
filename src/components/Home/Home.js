@@ -24,6 +24,32 @@ const Home = () => {
 
           <h3> Merry Christmas everyone! </h3>
 
+          <p className="schedule green-card">
+            This Years Schedule
+            <ul>
+              <li>Thursday November 24 9pm central (Thanksgiving Day)</li>
+              <li>Friday November 25 9am central (Black Friday)</li>
+              <li>
+                Saturday November 26 3am central (3rd shift / overseas airing)
+              </li>
+              <li>Sunday December 4 8am central</li>
+              <li>
+                Tuesday December 6 2am central (3rd shift / overseas airing)
+              </li>
+              <li>Wednesday December 14 7am central</li>
+              <li>
+                Sunday December 18 3am central (3rd shift / overseas airing)
+              </li>
+              <li>Friday December 23 6am central</li>
+              <li>Saturday December 24 9pm central (Christmas Eve)</li>
+              <li>
+                Sunday December 25 3am central (Christmas 3rd shift / overseas
+                airing)
+              </li>
+              <li>Sunday December 25 noon central (Christmas Day)</li>
+            </ul>
+          </p>
+
           <p className="info-text red-card">
             Buckle in and join John Patti Sr. for a two-hour trip to beaches,
             tiki bars, and holiday parties. There will be plenty of Trop Rock

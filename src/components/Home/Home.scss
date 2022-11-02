@@ -68,6 +68,22 @@
     }
   }
 
+  .schedule {
+    font-size: 1.3rem;
+    text-align: center;
+    color: var(--gold-color);
+    width: 90%;
+    margin: auto;
+
+    @media screen and (max-width: 900px) {
+      font-size: 1.1rem;
+    }
+
+    @media screen and (max-width: 450px) {
+      font-size: 1rem;
+    }
+  }
+
   .green-card {
     color: var(--white-color);
     font-weight: 400;
