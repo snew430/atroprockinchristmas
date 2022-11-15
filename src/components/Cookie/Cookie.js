@@ -1,5 +1,6 @@
 import React from 'react';
 import baking from '../../assets/images/baking.jpeg';
+import Form from '../Form';
 import './Cookie.scss';
 
 const Cookie = () => {
@@ -40,9 +41,8 @@ const Cookie = () => {
           <a href="http://www.rocpark.com/" rel="noreferrer" target="_blank">
             Click Here to Visit the R.O.C. Website
           </a>
-          <br />
-          More information to come on how you can support this fundraiser!
         </p>
+        <Form />
       </div>
     </div>
   );

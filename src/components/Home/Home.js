@@ -24,7 +24,7 @@ const Home = () => {
 
           <h3> Merry Christmas everyone! </h3>
 
-          <p className="schedule green-card">
+          <div className="schedule green-card">
             This Years Schedule
             <ul>
               <li>Thursday November 24 9pm central (Thanksgiving Day)</li>
@@ -48,14 +48,14 @@ const Home = () => {
               </li>
               <li>Sunday December 25 noon central (Christmas Day)</li>
             </ul>
-          </p>
+          </div>
 
           <p className="info-text red-card">
             Buckle in and join John Patti Sr. for a two-hour trip to beaches,
             tiki bars, and holiday parties. There will be plenty of Trop Rock
             tunes along the way from some of your favorite artists like current
             Coral Reefers Peter Mayer, Doyle Grisham, Nadirah Shakor and
-            original Coral Reefer Roger Bartlett. We will even go south of
+            original Coral Reefer Roger Bartlett. We will even go south of the
             border with Brent Burns and mix up a batch of gumbo with The Sauce
             Boss.
           </p>
@@ -79,8 +79,8 @@ const Home = () => {
           <h3>Trop Rock artists featured this year include:</h3>
 
           <div className="app__flex musicians-list">
-            {musicians.map((musician) => (
-              <li>{musician}</li>
+            {musicians.map((musician, i) => (
+              <li key={i}>{musician}</li>
             ))}
           </div>
 
