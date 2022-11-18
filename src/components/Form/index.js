@@ -11,18 +11,29 @@ function CookieForm() {
   const [formInfo, setFormInfo] = useState({
     name: '',
     email: '',
-    quantity: 0,
+    quantity: '1',
     address: '',
     addressTwo: '',
     city: '',
     state: '',
     zipcode: '',
-    amount: 0,
+    amount: 30,
   });
 
   const changeHandler = (e) => {
     const { name, value } = e.target;
-    setFormInfo({ ...formInfo, [name]: value, amount: formInfo.quantity * 30 });
+    if (name === 'quantity') {
+      setFormInfo({
+        ...formInfo,
+        [name]: value,
+        amount: parseInt(value) * 30,
+      });
+    } else {
+      setFormInfo({
+        ...formInfo,
+        [name]: value,
+      });
+    }
   };
 
   const submitHandler = async (event) => {
@@ -30,20 +41,20 @@ function CookieForm() {
     console.log(formInfo);
 
     //John Pattis
-    // const response = await emailjs.send(
-    //   'service_9y9c91u',
-    //   'template_rllf8x8',
-    //   formInfo,
-    //   'iHZKvGQZm10JDnZpb'
-    // );
+    const response = await emailjs.send(
+      'service_9y9c91u',
+      'template_rllf8x8',
+      formInfo,
+      'iHZKvGQZm10JDnZpb'
+    );
 
     //Seans
-    const response = await emailjs.send(
-      'service_obwznk9',
-      'template_vb6ls7f',
-      formInfo,
-      'dJ8ZMsIbApKk8xjLU'
-    );
+    // const response = await emailjs.send(
+    //   'service_obwznk9',
+    //   'template_vb6ls7f',
+    //   formInfo,
+    //   'dJ8ZMsIbApKk8xjLU'
+    // );
 
     response
       ? console.log('SUCCESS!', response.status, response.text)
@@ -57,7 +68,7 @@ function CookieForm() {
       {!formSubmitted ? (
         <Form onSubmit={submitHandler}>
           <Row className="mb-3">
-            <Form.Group className="mb-3" controlId="formGridAddress1">
+            <Form.Group className="mb-3" controlId="formGridName">
               <Form.Label>Name</Form.Label>
               <Form.Control
                 placeholder="Name"
@@ -86,7 +97,20 @@ function CookieForm() {
                 min={1}
                 onChange={changeHandler}
                 name="quantity"
+                value={formInfo.quantity}
                 required
+              />
+            </Form.Group>
+
+            <Form.Group as={Col} controlId="amount">
+              <Form.Label>Amount</Form.Label>
+              <Form.Control
+                type="text"
+                placeholder="Amount"
+                name="amount"
+                value={'$' + formInfo.amount}
+                plaintext
+                readOnly
               />
             </Form.Group>
           </Row>
@@ -132,12 +156,16 @@ function CookieForm() {
           </Button>
         </Form>
       ) : (
-        <div>
+        <div className="orderTotal">
           <h2>Your order total is...</h2>
-          <br />
           <h1>${formInfo.amount}.00</h1>
-          <br />
           <h4>Please follow this link for payment...</h4>
+          <a
+            type="image"
+            href="https://www.paypal.com/donate?token=LGf8X5RquUchY-v_fQxRwWdTXdz8gMh0V83Gz2jOzxzQiiS7jS96YS4TGhSUSjZy0Jz48zINaOcIjiRH"
+          >
+            Link to Donation
+          </a>
         </div>
       )}
     </div>
