@@ -160,11 +160,20 @@ function CookieForm() {
           <h2>Your order total is...</h2>
           <h1>${formInfo.amount}.00</h1>
           <h4>Please follow this link for payment...</h4>
-          <a
-            type="image"
-            href="https://www.paypal.com/donate?token=LGf8X5RquUchY-v_fQxRwWdTXdz8gMh0V83Gz2jOzxzQiiS7jS96YS4TGhSUSjZy0Jz48zINaOcIjiRH"
-          >
-            Link to Donation
+          <a class="f-icon">
+            <form
+              action="https://www.paypal.com/cgi-bin/webscr"
+              method="post"
+              target="_top"
+            >
+              <input type="hidden" name="cmd" value="_s-xclick" />
+              <input
+                type="hidden"
+                name="hosted_button_id"
+                value="88DQDNTVWNLKJ"
+              />
+              <input type="submit" value={'R.O.C. Donation Link'} />
+            </form>
           </a>
         </div>
       )}
