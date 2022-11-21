@@ -1,5 +1,6 @@
 import React from 'react';
 import baking from '../../assets/images/baking.jpeg';
+import cookie from '../../assets/images/cookie.jpeg';
 import Form from '../Form';
 import './Cookie.scss';
 
@@ -29,6 +30,7 @@ const Cookie = () => {
         </p>
         <div className="images">
           <img className="joe" src={baking} alt="joe baking cookies" />
+          <img className="joe" src={cookie} alt="palm tree cookie" />
         </div>
         <p className="charity-text">
           Cookies are sold by the pound, and all of the proceeds go to the
