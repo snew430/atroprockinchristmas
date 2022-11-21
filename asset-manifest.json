@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.a778698a.css",
-    "main.js": "/static/js/main.2704463f.js",
+    "main.css": "/static/css/main.6f7582ec.css",
+    "main.js": "/static/js/main.5abb0700.js",
     "static/js/787.67405485.chunk.js": "/static/js/787.67405485.chunk.js",
     "static/media/studio.jpg": "/static/media/studio.a8c5a74ff02186132bc3.jpg",
     "static/media/baking.jpeg": "/static/media/baking.80a01d7645b2d459e06f.jpeg",
+    "static/media/cookie.jpeg": "/static/media/cookie.fc3e3d1e90b6fde5230f.jpeg",
     "static/media/palms.jpg": "/static/media/palms.c20fe3c85758e5d14be8.jpg",
     "static/media/cookies.jpg": "/static/media/cookies.e9d1d21296dce144ce75.jpg",
     "static/media/TropRockLogo.png": "/static/media/TropRockLogo.a53a9e27b3298c00fd54.png",
@@ -14,12 +15,12 @@
     "static/media/JohnPatti.jpg": "/static/media/JohnPatti.1a74a9614660a3d2fadc.jpg",
     "static/media/JoeEvelius.jpg": "/static/media/JoeEvelius.0ac0e4fd87528c540d10.jpg",
     "index.html": "/index.html",
-    "main.a778698a.css.map": "/static/css/main.a778698a.css.map",
-    "main.2704463f.js.map": "/static/js/main.2704463f.js.map",
+    "main.6f7582ec.css.map": "/static/css/main.6f7582ec.css.map",
+    "main.5abb0700.js.map": "/static/js/main.5abb0700.js.map",
     "787.67405485.chunk.js.map": "/static/js/787.67405485.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a778698a.css",
-    "static/js/main.2704463f.js"
+    "static/css/main.6f7582ec.css",
+    "static/js/main.5abb0700.js"
   ]
 }
