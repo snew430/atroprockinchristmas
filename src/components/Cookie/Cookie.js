@@ -31,9 +31,11 @@ const Cookie = () => {
         </p>
         <div className="images">
           <img className="joe" src={ baking } alt="joe baking cookies" />
-          <video controls="controls" width="800" height="600" name="Video Name">
-            <source src={ video } />
-          </video>
+          <div id="video-border">
+            <video id="video-screen" controls width="800" height="600" name="Baking cookies">
+              <source src={ video } />
+            </video>
+          </div>
           <img className="joe" src={ cookie } alt="palm tree cookie" />
         </div>
         <p className="charity-text">
