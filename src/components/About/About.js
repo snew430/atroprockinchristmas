@@ -35,9 +35,9 @@ const About = () => {
             down never-before-told tales from your favorite Trop Rock artists
             and their fans.
             <br />
-            “A Trop Rockin' Christmas” is in its third year of production and
-            has been nominated for “Best Recorded Radio Show” for the 2022 Trop
-            Rock Music Association (TRMA) awards.
+            "A Trop Rockin' Christmas" is in its fourth year of production and
+            has been nominated several times for "Best Recorded Radio Show" for
+            the annual Trop Rock Music Association (TRMA) awards.
           </p>
         </div>
 

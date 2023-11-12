@@ -1,11 +1,6 @@
 import React from 'react';
 import './Home.scss';
 import logo from '../../assets/images/TropRockLogo.png';
-import sponsors from '../../info/sponsorInfo';
-import musicians from '../../info/musicianInfo';
-import { Link } from 'react-router-dom';
-
-// import Footer from '../Footer/Footer';
 
 const Home = () => {
   return (
@@ -27,72 +22,38 @@ const Home = () => {
           <div className="schedule green-card">
             This Years Schedule
             <ul>
-              <li>Thursday November 24 9pm central (Thanksgiving Day)</li>
-              <li>Friday November 25 9am central (Black Friday)</li>
-              <li>
-                Saturday November 26 3am central (3rd shift / overseas airing)
-              </li>
-              <li>Sunday December 4 8am central</li>
-              <li>
-                Tuesday December 6 2am central (3rd shift / overseas airing)
-              </li>
-              <li>Wednesday December 14 7am central</li>
-              <li>
-                Sunday December 18 3am central (3rd shift / overseas airing)
-              </li>
-              <li>Friday December 23 6am central</li>
-              <li>Saturday December 24 9pm central (Christmas Eve)</li>
-              <li>
-                Sunday December 25 3am central (Christmas 3rd shift / overseas
-                airing)
-              </li>
-              <li>Sunday December 25 noon central (Christmas Day)</li>
+              <li>Thursday, November 23, 2pm CENTRAL (Thanksgiving Day)</li>
+              <li>Friday, November 24, 6pm CENTRAL (Black Friday)</li>
+              <li>Monday December 4 9pm CENTRAL</li>
+              <li>Tuesday, December 12, 9pm CENTRAL</li>
+              <li>Wednesday, December 20, 9pm CENTRAL</li>
+              <li>Saturday, December 23, 3am CENTRAL</li>
+              <li>Saturday, December 23, 9am CENTRAL</li>
+              <li>Sunday, December 24, 6pm CENTRAL (Christmas Eve)</li>
+              <li>Monday, December 25, 3am CENTRAL (Christmas Day)</li>
+              <li>Monday, December 25, 2pm CENTRAL (Christmas Day)</li>
             </ul>
           </div>
 
           <p className="info-text red-card">
             Buckle in and join John Patti Sr. for a two-hour trip to beaches,
             tiki bars, and holiday parties. There will be plenty of Trop Rock
-            tunes along the way from some of your favorite artists like current
-            Coral Reefers Peter Mayer, Doyle Grisham, Nadirah Shakor and
-            original Coral Reefer Roger Bartlett. We will even go south of the
-            border with Brent Burns and mix up a batch of gumbo with The Sauce
-            Boss.
+            holiday tunes along the way from some of your favorite Trop Rock
+            artists like Jerry Diaz, Brent Burns, Aubrey Wallett, Paul
+            Overstreet, Isabella Stefania, John Patti, Bryton Stole, Jonas
+            Lorence, Sunny Jim and of course we will pay tribute to the guy who
+            started it all, Jimmy Buffett.
           </p>
 
           <p className="info-text green-card">
-            A tasty gift idea! Vaccaro's Italian Pastry Shop has created a
-            "sweet treat" exclusively for listeners of "A Trop Rockin'
-            Christmas" and your generosity this holiday season will get you a
-            pound of these cannoli-flavored palm tree cookies, while supporting
-            R-O-C Park, a very special place in Madeira Beach, Florida. R-O-C
-            Park is the official charity of Kitty and Melanie of Drop Dead
-            Dangerous, and dedicated to the remembrance of children's lives lost
-            too soon.
-            <br />
-            <Link as={Link} to="/cookie">
-              <span className="link-text">Details HERE</span>
-            </Link>
-            .
+            We also take you across the country to hear holiday stories from
+            some of Trop Rock's popular names like J.L. Jamison, the long-time
+            stage manager for Jimmy Buffett & the Coral Reefer Band. Nashville
+            radio legend Bill Whyte. Scott Nickerson, the guy known as Parrot
+            Head 0001. Plus a special visit with Trop Rock artist Aaron Scherz's
+            two adorable children Adeline and Grayson. And yes, we also make
+            time for the very popular Parrot Head Christmas Confessions feature.
           </p>
-
-          <h3>Trop Rock artists featured this year include:</h3>
-
-          <div className="app__flex musicians-list">
-            {musicians.map((musician, i) => (
-              <li key={i}>{musician}</li>
-            ))}
-          </div>
-
-          <p className="info-text green-card">
-            We also take you across the country at Christmas to visit with some
-            of the people who make it possible for us to enjoy Trop Rock music
-            like Dr. Joe Thornhill in Chicago, The Lake Shark Parrott Head Club
-            in Florida, and Bill Connolly. He will take us behind the scenes at
-            the annual “Music On The Bay” in Tampa.
-          </p>
-
-          <h3 className="funky">Plus... Parrothead Christmas confessions!</h3>
 
           <h3>
             Grab your boat drink, slip into your flip flops, and don't forget
@@ -109,38 +70,6 @@ const Home = () => {
               radiotroprock.com
             </a>
           </p>
-        </div>
-
-        <h3>A very special thank you to our sponsors</h3>
-        <div className="sponsor-links">
-          {sponsors.map((sponsor) =>
-            sponsor.logo ? (
-              <a
-                key={sponsor.name}
-                href={sponsor.website}
-                target="_blank"
-                rel="noreferrer"
-                className="sponsor-link"
-                style={{
-                  backgroundImage: `url(${sponsor.logo})`,
-                  backgroundPosition: 'center',
-                  backgroundSize: 'cover',
-                }}
-              >
-                {' '}
-              </a>
-            ) : (
-              <a
-                key={sponsor.name}
-                href={sponsor.website}
-                target="_blank"
-                className="sponsor-link"
-                rel="noreferrer"
-              >
-                {sponsor.name}
-              </a>
-            )
-          )}
         </div>
       </div>
     </div>

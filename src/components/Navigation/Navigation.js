@@ -33,11 +33,6 @@ const Navigation = () => {
           </Link>
         </li>
         <li className="app__flex p-text">
-          <Link as={Link} to="/cookie">
-            A Tasty Gift Idea
-          </Link>
-        </li>
-        <li className="app__flex p-text">
           <Link as={Link} to="/about">
             About Us
           </Link>
@@ -62,11 +57,6 @@ const Navigation = () => {
               <li className="app__flex p-text" onClick={() => setToggle(false)}>
                 <Link as={Link} to="/home" className="app__flex p-text">
                   Home
-                </Link>
-              </li>
-              <li className="app__flex p-text" onClick={() => setToggle(false)}>
-                <Link as={Link} to="/cookie" className="app__flex p-text">
-                  A Tasty Gift Idea
                 </Link>
               </li>
               <li className="app__flex p-text" onClick={() => setToggle(false)}>

@@ -18,7 +18,6 @@ function App() {
         <Navigation />
         <Routes>
           <Route path="/home" element={<Home />} />
-          <Route path="/cookie" element={<Cookie />} />
           <Route path="/about" element={<About />} />
           <Route path="/*" element={<Home />} />
         </Routes>
