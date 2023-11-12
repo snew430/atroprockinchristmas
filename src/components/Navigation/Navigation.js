@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import { HiMenuAlt4, HiX } from 'react-icons/hi';
-import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
+import React, {useState} from 'react';
+import {HiMenuAlt4, HiX} from 'react-icons/hi';
+import {motion} from 'framer-motion';
+import {Link} from 'react-router-dom';
 import logo from '../../assets/images/TropRockLogo.png';
 
 import './Navigation.scss';
@@ -11,21 +11,7 @@ const Navigation = () => {
 
   return (
     <nav className="app__navbar">
-      <div className="flex direction column">
-        <h2>A Trop Rockin Christmas</h2>
-        <div className="flex direction row">
-          <h2 className="sponsor">
-            presented by{' '}
-            <a
-              href="https://www.vaccarospastry.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Vaccaro’s Italian Pastry Shop
-            </a>
-          </h2>
-        </div>
-      </div>
+      <h2>A Trop Rockin Christmas</h2>
       <ul className="app__navbar-links">
         <li className="app__flex p-text">
           <Link as={Link} to="/home">
@@ -46,8 +32,8 @@ const Navigation = () => {
         />
         {toggle && (
           <motion.div
-            whileInView={{ x: [300, 0] }}
-            transition={{ duration: 0.85, ease: 'easeOut' }}
+            whileInView={{x: [300, 0]}}
+            transition={{duration: 0.85, ease: 'easeOut'}}
           >
             <HiX
               className="app__flex p-text"
