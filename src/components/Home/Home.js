@@ -20,7 +20,7 @@ const Home = () => {
           <h3> Merry Christmas everyone! </h3>
 
           <div className="schedule green-card">
-            This Years Schedule
+            2023 Schedule
             <ul>
               <li>Thursday, November 23, 2pm CENTRAL (Thanksgiving Day)</li>
               <li>Friday, November 24, 6pm CENTRAL (Black Friday)</li>
@@ -39,25 +39,27 @@ const Home = () => {
             Buckle in and join John Patti Sr. for a two-hour trip to beaches,
             tiki bars, and holiday parties. There will be plenty of Trop Rock
             holiday tunes along the way from some of your favorite Trop Rock
-            artists like Jerry Diaz, Brent Burns, Aubrey Wallett, Paul
-            Overstreet, Isabella Stefania, John Patti, Bryton Stole, Jonas
-            Lorence, Sunny Jim and of course we will pay tribute to the guy who
-            started it all, Jimmy Buffett.
+            artists like Jim Morris, The Wheeland Brothers, Carrie Welling, Eric
+            Erdman, Paul Overstreet, Isabella Stefania, John Patti, Coley
+            McCabe, Donny Brewer, and of course we will pay tribute to the guy
+            who started it all, Jimmy Buffett.
           </p>
 
           <p className="info-text green-card">
             We also take you across the country to hear holiday stories from
-            some of Trop Rock's popular names like J.L. Jamison, the long-time
-            stage manager for Jimmy Buffett & the Coral Reefer Band. Nashville
-            radio legend Bill Whyte. Scott Nickerson, the guy known as Parrot
-            Head 0001. Plus a special visit with Trop Rock artist Aaron Scherz's
-            two adorable children Adeline and Grayson. And yes, we also make
-            time for the very popular Parrot Head Christmas Confessions feature.
+            some of Trop Rock's popular names like Eric & Gina Babin, Thom
+            Shepherd, Tall Paul & Kristie, The Travelin' Trop Rocker Glenn
+            Atwell, as well as a Parrot Head who believes she was being stalked
+            by a very famous member of the Coral Reefer Band. We'll spend some
+            quality time with Dane Bryant who comes to the Trop Rock world after
+            unforgettable years with Olivia Newton-John and Clint Black. And
+            yes, we also make time for the very popular Parrot Head Christmas
+            Confessions feature.
           </p>
 
           <h3>
-            Grab your boat drink, slip into your flip flops, and don't forget
-            your passport.
+            Grab your boat drink, slip into your flip flops, and bring your
+            Christmas spirit.
           </h3>
 
           <p className="info-text">

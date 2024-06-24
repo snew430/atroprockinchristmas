@@ -38,8 +38,6 @@ function CookieForm() {
 
   const submitHandler = async (event) => {
     event.preventDefault();
-    console.log(formInfo);
-
     //John Pattis
     const response = await emailjs.send(
       'service_9y9c91u',
