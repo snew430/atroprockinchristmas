@@ -11,7 +11,10 @@ const Navigation = () => {
 
   return (
     <nav className="app__navbar">
-      <h2>A Trop Rockin Christmas</h2>
+      <div>
+        <h2>A Trop Rockin Christmas</h2>
+        <h3>Presented By Prestige Travel Vacations</h3>
+      </div>
       <ul className="app__navbar-links">
         <li className="app__flex p-text">
           <Link as={Link} to="/home">
@@ -35,10 +38,12 @@ const Navigation = () => {
             whileInView={{x: [300, 0]}}
             transition={{duration: 0.85, ease: 'easeOut'}}
           >
-            <HiX
-              className="app__flex p-text"
-              onClick={() => setToggle(false)}
-            />
+            <div className="close-container">
+              <HiX
+                className="app__flex p-text"
+                onClick={() => setToggle(false)}
+              />
+            </div>
             <ul>
               <li className="app__flex p-text" onClick={() => setToggle(false)}>
                 <Link as={Link} to="/home" className="app__flex p-text">

@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.scss';
 import logo from '../../assets/images/TropRockLogo.png';
+import prestigeLogo from '../../assets/images/prestigeLogo.jpg';
 
 const Home = () => {
   return (
@@ -11,27 +12,49 @@ const Home = () => {
         </div>
 
         <div>
-          <p className="info-text">
-            From the California Coast to the Florida Keys and beyond...
-            <br />
-            It's a Trop Rockin' Christmas, exclusively on Radio Trop Rock!
-          </p>
+          <div className="header">
+            <p className="header-text">
+              From the California Coast to the Florida Keys and beyond...
+              <br />
+              It's a Trop Rockin' Christmas, presented by{' '}
+              <a
+                href="https://prestigetravelvacations.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Prestige Travel Vacations
+              </a>{' '}
+              and honored with the 2024 TRMA award for "Best Radio Program,
+              Recorded."{' '}
+            </p>
+            <a
+              href="https://prestigetravelvacations.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img className="header-img" src={prestigeLogo} alt="" />
+            </a>
+          </div>
 
           <h3> Merry Christmas everyone! </h3>
 
           <div className="schedule green-card">
-            2023 Schedule
+            2024 Schedule
             <ul>
-              <li>Thursday, November 23, 2pm CENTRAL (Thanksgiving Day)</li>
-              <li>Friday, November 24, 6pm CENTRAL (Black Friday)</li>
-              <li>Monday December 4 9pm CENTRAL</li>
-              <li>Tuesday, December 12, 9pm CENTRAL</li>
-              <li>Wednesday, December 20, 9pm CENTRAL</li>
-              <li>Saturday, December 23, 3am CENTRAL</li>
-              <li>Saturday, December 23, 9am CENTRAL</li>
-              <li>Sunday, December 24, 6pm CENTRAL (Christmas Eve)</li>
-              <li>Monday, December 25, 3am CENTRAL (Christmas Day)</li>
-              <li>Monday, December 25, 2pm CENTRAL (Christmas Day)</li>
+              <li>Thursday, November 28, 7pm EASTERN (Thanksgiving Day)</li>
+              <li>Friday, November 29, 5am & 10am EASTERN (Black Friday)</li>
+              <li>Saturday, November 30, 10am EASTERN</li>
+              <li>Sunday, December 1, 7pm EASTERN (Black Friday)</li>
+              <li>Monday December 9 10am EASTERN</li>
+              <li>Tuesday, December 17, 10am EASTERN</li>
+              <li>Thursday, December 19, 7pm EASTERN</li>
+              <li>Saturday, December 21, 3am EASTERN</li>
+              <li>Sunday, December 22, 5pm EASTERN (Christmas Eve)</li>
+              <li>Monday, December 23, 1pm EASTERN (Christmas Day)</li>
+              <li>Tuesday, December 24, 9am & 9pm EASTERN (Christmas Day)</li>
+              <li>
+                Wednesday, December 25, 5am & 9am & 9pm EASTERN (Christmas Day)
+              </li>
             </ul>
           </div>
 

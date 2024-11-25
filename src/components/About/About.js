@@ -2,6 +2,7 @@ import './About.scss';
 import AboutCard from '../AboutCard/AboutCard';
 import info from '../../info/aboutInfo';
 import studio from '../../assets/images/studio.jpg';
+import trmaAward from '../../assets/images/TRMAaward.jpg';
 
 const About = () => {
   return (
@@ -12,6 +13,7 @@ const About = () => {
           <br />
           It's a Trop Rockin' Christmas!
         </h2>
+        <img className='award-image' src={trmaAward} alt="" />
         <div className="studio-content">
           <img src={studio} alt="studio"></img>
           <p className="info-text">
