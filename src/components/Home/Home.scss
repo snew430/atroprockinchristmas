@@ -6,6 +6,11 @@
   background-size: cover;
   background-repeat: no-repeat;
   z-index: -1;
+  overflow: hidden;
+
+  #logo {
+    overflow: hidden;
+  }
 
   .background {
     background-color: rgba(49, 49, 49, 0.35);
@@ -149,6 +154,29 @@
     border-color: var(--white-color);
     padding: 1rem;
     text-shadow: -3px 0 var(--darkRed-color);
+
+    .schedulepic {
+      max-width: 100%; /* Ensures the image doesn't exceed the container width */
+      padding: 0;
+      /* Add responsiveness for smaller screens */
+      @media (max-width: 730px) {
+        //   object-fit: cover;
+        //   object-position: 5rem;
+        display: none;
+      }
+    }
+    .schedulepicmin {
+      width: 100%; /* Ensures the image doesn't exceed the container width */
+      padding: 0;
+      object-fit: contain;
+      display: none;
+      /* Add responsiveness for smaller screens */
+      @media (max-width: 730px) {
+        display: block;
+        //   object-fit: cover;
+        //   object-position: 5rem;
+      }
+    }
   }
 
   .red-card {
