@@ -156,25 +156,20 @@
     text-shadow: -3px 0 var(--darkRed-color);
 
     .schedulepic {
-      max-width: 100%; /* Ensures the image doesn't exceed the container width */
+      max-width: 100%;
+      height: auto;
       padding: 0;
-      /* Add responsiveness for smaller screens */
       @media (max-width: 730px) {
-        //   object-fit: cover;
-        //   object-position: 5rem;
         display: none;
       }
     }
     .schedulepicmin {
-      width: 100%; /* Ensures the image doesn't exceed the container width */
+      width: 100%;
       padding: 0;
       object-fit: contain;
       display: none;
-      /* Add responsiveness for smaller screens */
       @media (max-width: 730px) {
         display: block;
-        //   object-fit: cover;
-        //   object-position: 5rem;
       }
     }
   }
