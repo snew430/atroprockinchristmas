@@ -1,26 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.c8c241c9.css",
-    "main.js": "/static/js/main.7bae91dd.js",
-    "static/js/787.67405485.chunk.js": "/static/js/787.67405485.chunk.js",
-    "static/media/studio.jpg": "/static/media/studio.a8c5a74ff02186132bc3.jpg",
-    "static/media/palms.jpg": "/static/media/palms.c20fe3c85758e5d14be8.jpg",
-    "static/media/TropRockLogo.png": "/static/media/TropRockLogo.a53a9e27b3298c00fd54.png",
-    "static/media/candy_canes.jpg": "/static/media/candy_canes.45fd9aec742bf39c45fa.jpg",
+    "main.css": "/static/css/main.14cec653.css",
+    "main.js": "/static/js/main.d248d048.js",
+    "static/js/453.966dc388.chunk.js": "/static/js/453.966dc388.chunk.js",
+    "static/media/troprockxmasschedule.jpeg": "/static/media/troprockxmasschedule.de1d6fe3e08936961483.jpeg",
     "static/media/santarock2.jpg": "/static/media/santarock2.6ab02f18d1a86b794edd.jpg",
+    "static/media/santarock1.jpg": "/static/media/santarock1.1d6ff5e284348256f95a.jpg",
+    "static/media/studio-optimized.jpg": "/static/media/studio-optimized.aff35083aae59532209d.jpg",
     "static/media/JohnPatti.jpg": "/static/media/JohnPatti.1a74a9614660a3d2fadc.jpg",
-    "static/media/troprockxmasschedule.jpeg": "/static/media/troprockxmasschedule.2f7c9604881e7a56eba1.jpeg",
     "static/media/TRMAaward.jpg": "/static/media/TRMAaward.7cf6dd9851cee5a0dedc.jpg",
     "static/media/troprockxmasschedulemin.jpeg": "/static/media/troprockxmasschedulemin.b86e968c3008eba45439.jpeg",
     "static/media/JoeEvelius.jpg": "/static/media/JoeEvelius.0ac0e4fd87528c540d10.jpg",
     "static/media/prestigeLogo.jpg": "/static/media/prestigeLogo.41cb82b38964fe2503bb.jpg",
     "index.html": "/index.html",
-    "main.c8c241c9.css.map": "/static/css/main.c8c241c9.css.map",
-    "main.7bae91dd.js.map": "/static/js/main.7bae91dd.js.map",
-    "787.67405485.chunk.js.map": "/static/js/787.67405485.chunk.js.map"
+    "main.14cec653.css.map": "/static/css/main.14cec653.css.map",
+    "main.d248d048.js.map": "/static/js/main.d248d048.js.map",
+    "453.966dc388.chunk.js.map": "/static/js/453.966dc388.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8c241c9.css",
-    "static/js/main.7bae91dd.js"
+    "static/css/main.14cec653.css",
+    "static/js/main.d248d048.js"
   ]
 }
