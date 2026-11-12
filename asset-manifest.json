@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.14cec653.css",
-    "main.js": "/static/js/main.d248d048.js",
+    "main.js": "/static/js/main.7e29b5c6.js",
     "static/js/453.966dc388.chunk.js": "/static/js/453.966dc388.chunk.js",
     "static/media/troprockxmasschedule.jpeg": "/static/media/troprockxmasschedule.de1d6fe3e08936961483.jpeg",
     "static/media/santarock2.jpg": "/static/media/santarock2.6ab02f18d1a86b794edd.jpg",
@@ -9,16 +9,16 @@
     "static/media/studio-optimized.jpg": "/static/media/studio-optimized.aff35083aae59532209d.jpg",
     "static/media/JohnPatti.jpg": "/static/media/JohnPatti.1a74a9614660a3d2fadc.jpg",
     "static/media/TRMAaward.jpg": "/static/media/TRMAaward.7cf6dd9851cee5a0dedc.jpg",
-    "static/media/troprockxmasschedulemin.jpeg": "/static/media/troprockxmasschedulemin.b86e968c3008eba45439.jpeg",
+    "static/media/troprockxmasschedulemin.jpeg": "/static/media/troprockxmasschedulemin.41236f16d70efe6dd19c.jpeg",
     "static/media/JoeEvelius.jpg": "/static/media/JoeEvelius.0ac0e4fd87528c540d10.jpg",
     "static/media/prestigeLogo.jpg": "/static/media/prestigeLogo.41cb82b38964fe2503bb.jpg",
     "index.html": "/index.html",
     "main.14cec653.css.map": "/static/css/main.14cec653.css.map",
-    "main.d248d048.js.map": "/static/js/main.d248d048.js.map",
+    "main.7e29b5c6.js.map": "/static/js/main.7e29b5c6.js.map",
     "453.966dc388.chunk.js.map": "/static/js/453.966dc388.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.14cec653.css",
-    "static/js/main.d248d048.js"
+    "static/js/main.7e29b5c6.js"
   ]
 }
